@@ -4,14 +4,15 @@ dev = [
     "nox>=2022.11.21",
     "pre-commit>=2.21.0",
     "black>=23.3.0",
+    "pytest>=7.3.1",
 ]
 
 [project]
-name = "pdm-nox-dev-template"
-version = "0.1.0"
-description = "Template for python projects managed with pdm and tested with nox"
+name = "predicates"
+version = "0.0.1"
+description = "(Yet another) predicate composition library"
 authors = [
-    {name = "sharpencrag", email = "ed.whetstone@gmail.com"},
+    {name = "sharpencrag / Ed whetstone", email = "ed.whetstone@gmail.com"},
 ]
 dependencies = []
 requires-python = ">=3.7"
