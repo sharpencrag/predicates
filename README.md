@@ -68,12 +68,6 @@ numbers = range(-10, 11)
 even_and_positive_numbers = list(even_and_positive.filtered(numbers))
 ```
 
-I've added a new section to the README.md to cover Predicate factories:
-
-## README.md
-
-...
-
 ### Predicate Factories
 
 Predicate factories are functions that return a new Predicate based on some input. You can create a Predicate factory using the `predicate_factory` decorator:
